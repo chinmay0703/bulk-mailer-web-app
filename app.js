@@ -10,7 +10,7 @@ const OAuth2 = google.auth.OAuth2;
 const oauth2Client = new OAuth2(
     process.env.CLIENT_ID,
     process.env.CLIENT_SECRET,
-    'http://localhost:3000/oauth2callback' // Redirect URI
+    'https://bulk-mailer-web-app.vercel.app/oauth2callback' // Redirect URI
 );
 
 // Scopes required by Gmail API
